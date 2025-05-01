@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "19163530564",
+    "project_id": "testing-application-83f74",
+    "storage_bucket": "testing-application-83f74.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19163530564:android:9b6d3477d44729cc9e0311",
+        "android_client_info": {
+          "package_name": "com.example.dynamicform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjC_vXdtwoY27FgmLYy6y4bUG2aTreym4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

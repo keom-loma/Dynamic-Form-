@@ -36,3 +36,11 @@ jobs:
         with:
           name: debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Distribute to Firebase App Distribution
+        uses: wzieba/Firebase-Distribution-Github-Action@v2
+        with:
+          appId: ${{ '1:19163530564:android:9b6d3477d44729cc9e0311' }}
+          token: ${{ secrets.JUPYTER10_FIREBASE_TOKEN }}
+          file: app/build/outputs/apk/debug/app-debug.apk
+          groups: testers
